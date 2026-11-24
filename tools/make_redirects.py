@@ -5,7 +5,7 @@ The app was renamed from Tanren to Tagane (app repository ADR-0079), and the sit
 lkmcelik/tagane on 2026-11-24. GitHub Pages doesn't redirect a renamed project site, so this repo (published as
 lkmcelik/tanren) answers every old page with a page that sends the visitor to the same path under /tagane/.
 
-Usage: python3 tools/make_redirects.py <path to the site repo (tanren-site)>
+Usage: python3 tools/make_redirects.py <path to the site repo (tagane-site)>
 Writes one page per HTML file of the site (except 404.html) plus 404.html, which rewrites any other /tanren/ path.
 """
 import html
